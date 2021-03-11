@@ -66,6 +66,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onPause() {
+        sensorManager.unregisterListener(sensorEventListener);
+        super.onPause();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        sensorManager.registerListener(sensorEventListener,
+                sensorManager.getDefaultSensor(accelerometerSensor),
+                SensorManager.SENSOR_DELAY_NORMAL);
+    }
+
     final SensorEventListener sensorEventListener = new SensorEventListener() {
         @Override
         public void onSensorChanged(SensorEvent event) {
