@@ -13,4 +13,6 @@ Practice Android Sensor and make game!!
 # 설명
 ```
  *본 어플은 아직 제작중에 있습니다.
+ *로딩화면 구현 후 중간화면 제작 예정
+ *난이도 별 화면 구상 예정
 ```
