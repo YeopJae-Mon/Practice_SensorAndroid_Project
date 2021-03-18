@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practice_MoveBall">
 
-        <activity android:name=".StartActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".StartActivity">
         </activity>
         <activity android:name=".MainActivity"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
