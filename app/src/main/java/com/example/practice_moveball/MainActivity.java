@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
+    //가로 1080px 세로 2094px
     SensorManager sensorManager;
     int accelerometerSensor;
     float xAxis, yAxis, zAxis;
@@ -39,13 +40,14 @@ public class MainActivity extends Activity {
         screenHeight = size.y;
 
         cx = screenWidth / 2;
-        cy = screenHeight / 2;
+        cy = screenHeight;
 
         r = (int) (screenHeight * 0.02);
 
         view = new MyView(this);
-        view.setBackgroundColor(Color.WHITE);
         setContentView(view);
+
+        view.setBackgroundColor(Color.WHITE);
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         accelerometerSensor = Sensor.TYPE_ACCELEROMETER;
@@ -62,6 +64,8 @@ public class MainActivity extends Activity {
             Paint paint = new Paint();
             paint.setColor(Color.BLACK);
             canvas.drawCircle(cx, cy, r, paint);
+            canvas.drawRect(100, 150, 200, 250, paint);
+
         }
     }
 
