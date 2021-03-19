@@ -6,4 +6,29 @@
     android:background="#ffb"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="장애물 피하기"
+        android:gravity="center_horizontal"
+        android:textSize="70sp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/text01"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="센서사용 연습용"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/text02"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="로딩중...."
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/text03"/>
+
 </LinearLayout>
