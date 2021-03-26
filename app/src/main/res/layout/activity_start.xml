@@ -22,11 +22,18 @@ android:background="#ffb">
         android:textSize="40sp"
         android:layout_marginTop="200dp"
         android:id="@+id/text02"/>
-<Button
-    android:id="@+id/btn01"
-    android:layout_width="match_parent"
-    android:layout_height="80dp"
-    android:layout_marginTop="450dp"
-    android:text="시작하기" />
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="450dp"
+        android:text="난이도 1" />
+
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="550dp"
+        android:text="난이도 2" />
 
 </RelativeLayout>

@@ -15,10 +15,22 @@ public class StartActivity extends Activity {
         setContentView(R.layout.activity_start);
 
         Button button1 = (Button) findViewById(R.id.btn01);
+        Button button2 = (Button) findViewById(R.id.btn02);
+
         button1.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent.putExtra("type",1);
+                startActivity(intent);
+            }
+        });
+
+        button2.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent.putExtra("type",2);
                 startActivity(intent);
             }
         });

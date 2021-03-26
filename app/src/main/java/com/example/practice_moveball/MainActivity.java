@@ -1,7 +1,9 @@
 package com.example.practice_moveball;
 
 import android.app.Activity;
+import android.app.Person;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -63,8 +65,14 @@ public class MainActivity extends Activity {
         protected void onDraw(Canvas canvas) {
             Paint paint = new Paint();
             paint.setColor(Color.BLACK);
+
+            Intent intent = getIntent();
+            int game = intent.getExtras().getInt("type");
+
+            if(game == 1){canvas.drawRect(100, 150, 200, 250, paint);}
+            if(game == 2){canvas.drawRect(150, 200, 250, 300, paint);}
+
             canvas.drawCircle(cx, cy, r, paint);
-            canvas.drawRect(100, 150, 200, 250, paint);
 
         }
     }
