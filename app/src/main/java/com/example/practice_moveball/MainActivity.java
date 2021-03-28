@@ -64,17 +64,20 @@ public class MainActivity extends Activity {
         @Override
         protected void onDraw(Canvas canvas) {
             Paint paint = new Paint();
-            paint.setColor(Color.BLACK);
 
             Intent intent = getIntent();
             int game = intent.getExtras().getInt("type");
 
-            if(game == 1){canvas.drawRect(100, 150, 200, 250, paint);}
-            if(game == 2){canvas.drawRect(150, 200, 250, 300, paint);}
-
+            paint.setColor(Color.BLACK);
             canvas.drawCircle(cx, cy, r, paint);
 
+            paint.setColor(Color.RED);
+            if(game == 2){canvas.drawRect(150, 200, 250, 300, paint);}
+            if(game == 3){canvas.drawRect(150, 200, 250, 300, paint);}
+            if(game == 4){canvas.drawRect(150, 200, 250, 300, paint);}
+
         }
+
     }
 
     @Override

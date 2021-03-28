@@ -16,6 +16,8 @@ public class StartActivity extends Activity {
 
         Button button1 = (Button) findViewById(R.id.btn01);
         Button button2 = (Button) findViewById(R.id.btn02);
+        Button button3 = (Button) findViewById(R.id.btn03);
+        Button button4 = (Button) findViewById(R.id.btn04);
 
         button1.setOnClickListener(new OnClickListener() {
             @Override
@@ -31,6 +33,24 @@ public class StartActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 intent.putExtra("type",2);
+                startActivity(intent);
+            }
+        });
+
+        button3.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent.putExtra("type",3);
+                startActivity(intent);
+            }
+        });
+
+        button4.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent.putExtra("type",4);
                 startActivity(intent);
             }
         });
