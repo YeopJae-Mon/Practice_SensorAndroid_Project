@@ -109,10 +109,15 @@ public class MainActivity extends Activity {
                 { cx = 4; view.invalidate(); }
                 else if (cx >= screenWidth - 4)
                 { cx = screenWidth - 4; view.invalidate(); }
-                else if (cy <= 4)
-                { cy = 4; view.invalidate(); }
                 else if (cy >= screenHeight - 4)
                 { cy = screenHeight - 4; view.invalidate(); }
+                //여기서 부터 난이도별 결과확인
+                else if (cy <= 4)
+                {
+                    Intent intent = new Intent(getApplicationContext(), ClearActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
                 else { view.invalidate(); }
             }
         }
