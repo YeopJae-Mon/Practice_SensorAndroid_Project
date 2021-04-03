@@ -15,14 +15,11 @@
         android:layout_marginTop="250dp"
         android:id="@+id/text01"/>
 
-    <LinearLayout android:layout_height="wrap_content"
-        android:layout_width="match_parent">
-        <Button
-            android:id="@+id/btn05"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="메인으로" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="메인으로" />
 
-    </LinearLayout>
 </LinearLayout>
