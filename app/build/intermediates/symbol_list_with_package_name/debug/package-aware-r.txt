@@ -1667,11 +1667,11 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btn
 id btn01
 id btn02
 id btn03
 id btn04
-id btn05
 id buttonPanel
 id cache_measures
 id cancel_button

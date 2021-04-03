@@ -1666,11 +1666,11 @@ int id beginning 0x7f080053
 int id blocking 0x7f080054
 int id bottom 0x7f080055
 int id bounce 0x7f080056
-int id btn01 0x7f080057
-int id btn02 0x7f080058
-int id btn03 0x7f080059
-int id btn04 0x7f08005a
-int id btn05 0x7f08005b
+int id btn 0x7f080057
+int id btn01 0x7f080058
+int id btn02 0x7f080059
+int id btn03 0x7f08005a
+int id btn04 0x7f08005b
 int id buttonPanel 0x7f08005c
 int id cache_measures 0x7f08005d
 int id cancel_button 0x7f08005e

@@ -1,20 +1,21 @@
+com/example/practice_moveball/BuildConfig.java
+ com.example.practice_moveball.BuildConfig
+com/example/practice_moveball/ClearActivity.java
+ com.example.practice_moveball.ClearActivity
+ com.example.practice_moveball.ClearActivity$1
+com/example/practice_moveball/SplashActivity.java
+ com.example.practice_moveball.SplashActivity
+ com.example.practice_moveball.SplashActivity$1
+com/example/practice_moveball/FailActivity.java
+ com.example.practice_moveball.FailActivity
+ com.example.practice_moveball.FailActivity$1
+com/example/practice_moveball/MainActivity.java
+ com.example.practice_moveball.MainActivity
+ com.example.practice_moveball.MainActivity$1
+ com.example.practice_moveball.MainActivity$MyView
 com/example/practice_moveball/StartActivity.java
  com.example.practice_moveball.StartActivity
  com.example.practice_moveball.StartActivity$1
  com.example.practice_moveball.StartActivity$2
  com.example.practice_moveball.StartActivity$3
  com.example.practice_moveball.StartActivity$4
-com/example/practice_moveball/BuildConfig.java
- com.example.practice_moveball.BuildConfig
-com/example/practice_moveball/SplashActivity.java
- com.example.practice_moveball.SplashActivity
- com.example.practice_moveball.SplashActivity$1
-com/example/practice_moveball/FailActivity.java
- com.example.practice_moveball.FailActivity
-com/example/practice_moveball/MainActivity.java
- com.example.practice_moveball.MainActivity
- com.example.practice_moveball.MainActivity$1
- com.example.practice_moveball.MainActivity$MyView
-com/example/practice_moveball/ClearActivity.java
- com.example.practice_moveball.ClearActivity
- com.example.practice_moveball.ClearActivity$1

@@ -25,14 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.practice_moveball.StartActivity" >
-        </activity>
+        <activity android:name="com.example.practice_moveball.StartActivity" />
         <activity
             android:name="com.example.practice_moveball.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity android:name="com.example.practice_moveball.ClearActivity" />
+        <activity android:name="com.example.practice_moveball.FailActivity" />
     </application>
 
 </manifest>

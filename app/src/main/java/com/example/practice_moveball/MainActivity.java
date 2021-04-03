@@ -24,8 +24,6 @@ public class MainActivity extends Activity {
     int accelerometerSensor;
     float xAxis, yAxis, zAxis;
 
-    TextView textView;
-
     MyView view;
 
     int screenWidth, screenHeight;
@@ -43,7 +41,6 @@ public class MainActivity extends Activity {
 
         cx = screenWidth / 2;
         cy = screenHeight;
-
         r = (int) (screenHeight * 0.02);
 
         view = new MyView(this);
@@ -75,9 +72,7 @@ public class MainActivity extends Activity {
             if(game == 2){canvas.drawRect(150, 200, 250, 300, paint);}
             if(game == 3){canvas.drawRect(150, 200, 250, 300, paint);}
             if(game == 4){canvas.drawRect(150, 200, 250, 300, paint);}
-
         }
-
     }
 
     @Override
@@ -105,6 +100,9 @@ public class MainActivity extends Activity {
                 cx = cx - ((int) xAxis * 4);
                 cy = cy + ((int) yAxis * 4);
 
+                Intent intent = getIntent();
+                int game = intent.getExtras().getInt("type");
+
                 if (cx <= 4)
                 { cx = 4; view.invalidate(); }
                 else if (cx >= screenWidth - 4)
@@ -114,8 +112,12 @@ public class MainActivity extends Activity {
                 //여기서 부터 난이도별 결과확인
                 else if (cy <= 4)
                 {
-                    Intent intent = new Intent(getApplicationContext(), ClearActivity.class);
-                    startActivity(intent);
+                    Intent intent2 = new Intent(getApplicationContext(), ClearActivity.class);
+                    if(game == 1){intent2.putExtra("clear",1);}
+                    if(game == 2){intent2.putExtra("clear",2);}
+                    if(game == 3){intent2.putExtra("clear",3);}
+                    if(game == 4){intent2.putExtra("clear",4);}
+                    startActivity(intent2);
                     finish();
                 }
                 else { view.invalidate(); }
@@ -123,7 +125,6 @@ public class MainActivity extends Activity {
         }
         @Override
         public void onAccuracyChanged (Sensor sensor,int accuracy) {
-
         }
     };
 }

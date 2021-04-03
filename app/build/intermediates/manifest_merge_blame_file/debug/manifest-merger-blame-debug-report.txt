@@ -11,7 +11,7 @@
 9-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:5:5-27:19
+11-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:5:5-26:19
 12        android:allowBackup="true"
 12-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -42,22 +42,24 @@
 25-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:16:27-74
 26            </intent-filter>
 27        </activity>
-28        <activity android:name="com.example.practice_moveball.StartActivity" >
-28-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:19:9-20:20
+28        <activity android:name="com.example.practice_moveball.StartActivity" />
+28-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:19:9-50
 28-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:19:19-48
-29        </activity>
-30        <activity
-30-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:21:9-24:20
-31            android:name="com.example.practice_moveball.MainActivity"
-31-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:21:19-47
-32            android:screenOrientation="portrait"
-32-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:23:13-49
-33            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-33-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:22:13-77
-34        </activity>
-35        <activity android:name="com.example.practice_moveball.ClearActivity" />
-35-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:26:9-50
-35-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:26:19-48
+29        <activity
+29-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:20:9-23:20
+30            android:name="com.example.practice_moveball.MainActivity"
+30-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:20:19-47
+31            android:screenOrientation="portrait"
+31-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:22:13-49
+32            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+32-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:21:13-77
+33        </activity>
+34        <activity android:name="com.example.practice_moveball.ClearActivity" />
+34-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:24:9-50
+34-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:24:19-48
+35        <activity android:name="com.example.practice_moveball.FailActivity" />
+35-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:25:9-49
+35-->C:\Users\JeongJaeYeop\AndroidStudioProjects\Practice_MoveBall\app\src\main\AndroidManifest.xml:25:19-47
 36    </application>
 37
 38</manifest>

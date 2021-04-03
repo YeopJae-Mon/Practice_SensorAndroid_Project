@@ -12,12 +12,12 @@
         "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\JeongJaeYeop\\AndroidStudioProjects\\Practice_MoveBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",

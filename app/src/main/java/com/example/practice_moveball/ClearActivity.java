@@ -2,6 +2,7 @@ package com.example.practice_moveball;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,11 +16,28 @@ public class ClearActivity extends Activity{
 
         Button button1 = (Button) findViewById(R.id.btn);
 
+        Intent fin = getIntent();
+        int game = fin.getExtras().getInt("clear");
+
+        if(game == 1){button1.setBackgroundColor(Color.BLUE);}
+        if(game == 2){button1.setBackgroundColor(Color.GREEN);}
+        if(game == 3){button1.setBackgroundColor(Color.YELLOW);}
+        if(game == 4){button1.setBackgroundColor(Color.RED);}
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), StartActivity.class);
-                startActivity(intent);
+
+                Intent fin = getIntent();
+                int game = fin.getExtras().getInt("clear");
+
+                Intent intent2 = new Intent(getApplicationContext(), StartActivity.class);
+                if(game == 1){intent2.putExtra("save",1);}
+                if(game == 2){intent2.putExtra("save",2);}
+                if(game == 3){intent2.putExtra("save",3);}
+                if(game == 4){intent2.putExtra("save",4);}
+                startActivity(intent2);
+                finish();
             }
         });
     }
