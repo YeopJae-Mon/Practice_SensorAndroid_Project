@@ -11,7 +11,7 @@ public class FailActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clear);
+        setContentView(R.layout.activity_fail);
 
         Button button1 = (Button) findViewById(R.id.btn);
 
